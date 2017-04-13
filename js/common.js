@@ -5,6 +5,9 @@ $(document).ready(function() {
         preloadImages: 'all'
     });
 
-
+    //Лайтбокс для галереи в блоке place
+    $("[data-fancybox]").fancybox({
+        // Options will go here
+    });
 
 });
