@@ -11,8 +11,13 @@
     font-style: normal;
 }
 
-
-
+@font-face {
+    font-family: 'prataregular';
+    src: url('../fonts/Prata/prata-regular-webfont.woff2') format('woff2'),
+    url('../fonts/Prata/prata-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 
@@ -27,11 +32,173 @@ body {
     font-family: 'Fira Sans Condensed', sans-serif;
     color: #000;
     background: #efe8ff;
+    overflow-x: hidden;
+    width: 100vw;
 }
 
+a,
+a:hover {
+    text-decoration: none;
+}
 .container {
     width: 1126px;
     padding: 0 10px;
     margin: 0 auto;
 }
+
+/* header */
+.header {
+    background: url("../images/bg.jpg") no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 95vh;
+    width: 100%;
+    position: relative;
+}
+
+
+.header_wrap {
+    background: transparent;
+    z-index: 99;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 150px;
+    padding: 25px 0;
+    position: absolute;
+    top: 0;
+    width: 1146px;
+    left: 50%;
+    margin: 0 0 0 -573px;
+}
+.logo {
+    width: 130px;
+    height: 130px;
+    margin: 0 57px 0 0;
+}
+.logo img {
+    display: inline-block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    line-height: initial;
+}
+.header-phone_link {
+    color: #4b1f66;
+    font-size: 30px;
+    line-height: 48px;
+    font-family: 'prataregular', serif;
+}
+.social-widget {
+    margin-left: auto;
+}
+.social-widget_link {
+    display: inline-block;
+    vertical-align: top;
+    width: 36px;
+    height: 36px;
+    transition: all linear 0.2s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 0;
+    margin: 0 16px 0 0;
+}
+.social-widget_link:last-child {
+    margin-right: 0;
+}
+.social-widget_link--instagramm {
+    background: url("../images/ico-inst.png") no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.social-widget_link--instagramm:hover {
+    background: url("../images/ico-inst-hover.png") no-repeat;
+}
+.social-widget_link--vkontakte {
+    background: url("../images/ico-vk.png") no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.social-widget_link--vkontakte:hover {
+    background: url("../images/ico-vk-hover.png") no-repeat;
+}
+.social-widget_link--facebook {
+    background: url("../images/ico-fb.png") no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+}
+.social-widget_link--facebook:hover {
+    background: url("../images/ico-fb-hover.png") no-repeat;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+}
+.header-title {
+    font-family: 'Magnolia Script', serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #4b1f66;
+    margin: 60px 0 38px 0;
+    padding: 0;
+}
+.header-descriptor {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+/* registration */
+.registration {
+    padding: 14px 0;
+    background: linear-gradient(to right, #61698e, #c177aa);
+}
+.registration_title {
+    margin: 0 0 12px 0;
+    padding: 0;
+    font-size: 30px;
+    line-height: 1em;
+    font-family: 'prataregular', serif;
+    color: #efe8ff;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+.registration_subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* /registration */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
