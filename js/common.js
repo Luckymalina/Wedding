@@ -1,3 +1,10 @@
-/**
- * Created by Malina on 13.04.2017.
- */
+$(document).ready(function() {
+
+    // Слайдер в блоке about
+    $('.about-slider_list').show().bxSlider({
+        preloadImages: 'all'
+    });
+
+
+
+});

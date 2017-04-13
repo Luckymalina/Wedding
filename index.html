@@ -5,9 +5,12 @@
   <title>Курс идеальной жены</title>
 
   <!-- fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:400,500i,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:300,300i,400,500,500i,700,700i&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Prata&amp;subset=cyrillic,cyrillic-ext" rel="stylesheet">
+
   <!-- links -->
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="libs/jquery.bxslider/jquery.bxslider.css">
   <link rel="stylesheet" href="css/style.css">
 
 
@@ -49,16 +52,16 @@
           <p class="registration_subtitle">Количество мест ограничено!</p>
           <form action="" class="registration-form">
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="">Имя</label>
+              <input type="text" class="form_field--input">
+              <label for="" class="form_field--label">Имя</label>
             </div>
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="" >Ваш телефон</label>
+              <input type="text" class="form_field--input">
+              <label for="" class="form_field--label">Ваш телефон</label>
             </div>
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="">E-mail</label>
+              <input type="text" class="form_field--input">
+              <label for="" class="form_field--label">E-mail</label>
             </div>
             <button type="button" class="form_btn form_btn--light">Регистрация</button>
           </form>
@@ -68,26 +71,40 @@
 
       <section class="about">
         <div class="container">
-          <div class="col-left">
-            <div class="about-text">
-              <h3 class="about_title">Ты только что вышла замуж или только планируешь?</h3>
-              <p>Эмоции бьют через край, и кажется, что депрессия не за горами? Тогда тебе к нам!
-                За 3 дня тренинга ты узнаешь как с первых дней вести себя с мужем, чтобы романтика
-                ваших отношений продлилась и после свадьбы.
-              </p>
+          <div class="about_wrap">
+            <div class="col-left">
+              <div class="about-text">
+                <h3 class="about_title">Ты только что вышла<br> замуж или только<br> планируешь?</h3>
+                <p>Эмоции бьют через край, и кажется, что депрессия не за горами? Тогда тебе к нам!
+                  За 3 дня тренинга ты узнаешь как с первых дней вести себя с мужем, чтобы романтика
+                  ваших отношений продлилась и после свадьбы.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="col-right">
-            <div class="about-photo">
-              <div class="about-slider">
-                <ul class="about-slider_list">
-                  <li class="ul about-slider_item">1</li>
-                  <li class="ul about-slider_item">2</li>
-                  <li class="ul about-slider_item">3</li>
-                  <li class="ul about-slider_item">4</li>
-                  <li class="ul about-slider_item">5</li>
-                  <li class="ul about-slider_item">6</li>
-                </ul>
+            <div class="col-right">
+              <div class="about-photo">
+                <div class="about-slider">
+                  <ul class="about-slider_list" style="display:none">
+                    <li class="ul about-slider_item">
+                      <img src="images/about-slide-1.jpg" alt="">
+                    </li>
+                    <li class="ul about-slider_item">
+                      <img src="images/about-slide-2.jpg" alt="">
+                    </li>
+                    <li class="ul about-slider_item">
+                      <img src="images/about-slide-3.jpg" alt="">
+                    </li>
+                    <li class="ul about-slider_item">
+                      <img src="images/about-slide-4.jpg" alt="">
+                    </li>
+                    <li class="ul about-slider_item">
+                      <img src="images/about-slide-5.jpg" alt="">
+                    </li>
+                    <li class="ul about-slider_item">
+                      <img src="images/about-slide-6.jpg" alt="">
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
@@ -100,7 +117,7 @@
           <ul class="goals_list">
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-1.png" alt="10 ошибок">
               </div>
               <div class="goals_desc">
                 <p>Ты узнаешь 10 ужасных ошибок, которые совершают 80% девушек после свадьбы </p>
@@ -108,7 +125,7 @@
             </li>
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-2.png" alt="Увидишь себя глазами">
               </div>
               <div class="goals_desc">
                 <p>Ты увидишь себя глазами своего мужчины и узнаешь о чем он мечтает в тайне </p>
@@ -116,7 +133,7 @@
             </li>
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-3.png" alt="Женский магнетизм">
               </div>
               <div class="goals_desc">
                 <p>Ты наполнишься женским магнетизмом и бесконечной притягательностью для своего мужчины и
@@ -125,7 +142,7 @@
             </li>
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-4.png" alt="Научишься получать подарки">
               </div>
               <div class="goals_desc">
                 <p>Ты научишься легко и по женски получать подарки и исполнение своих желаний руками своего мужчины </p>
@@ -133,7 +150,7 @@
             </li>
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-5.png" alt="Чего не хватает мужчине">
               </div>
               <div class="goals_desc">
                 <p>Ты узнаешь чего не хватает твоему мужчине и что он хотел бы скорректировать в ваших отношениях и
@@ -143,7 +160,7 @@
             </li>
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-6.png" alt="Техникой разрешения конфликтов">
               </div>
               <div class="goals_desc">
                 <p>Ты овладеешь техникой разрешения конфликтных ситуаций с мужчиной без боя и истерик</p>
@@ -151,7 +168,7 @@
             </li>
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-7.png" alt="Энергии в тебе">
               </div>
               <div class="goals_desc">
                 <p>Ты прикоснешься к энергиям блуждающим в тебе, наполнишься до краев женственностью и очарованием, твои глаза будут сиять </p>
@@ -159,7 +176,7 @@
             </li>
             <li class="goals_item">
               <div class="goals_ico">
-                <img src="" alt="">
+                <img src="images/features-ico-8.png" alt="Ты станешь лучшей">
               </div>
               <div class="goals_desc">
                 <p>Ты станешь той, ради которой он будет совершать подвиги и завоевывать вновь и вновь!</p>
@@ -266,16 +283,16 @@
           <p class="registration_subtitle">Сделай это реальным уже сегодня!</p>
           <form action="" class="registration-form">
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="">Имя</label>
+              <input type="text" class="form_field--input">
+              <label for="" class="form_field--label">Имя</label>
             </div>
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="" >Ваш телефон</label>
+              <input type="text" class="form_field--input">
+              <label for="" class="form_field--label">Ваш телефон</label>
             </div>
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="">E-mail</label>
+              <input type="text" class="form_field--input">
+              <label for="" class="form_field--label">E-mail</label>
             </div>
             <button type="button" class="form_btn form_btn--light">Регистрация</button>
           </form>
@@ -387,16 +404,16 @@
             Не упусти возможность!</p>
           <form action="" class="registration-form">
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="">Имя</label>
+              <input type="text" id="user-name" class="form_field--input" >
+              <label for="user-name" class="form_field--label">Имя</label>
             </div>
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="" >Ваш телефон</label>
+              <input type="text" id="user-phone" class="form_field--input" >
+              <label for="user-phone" class="form_field--label">Ваш телефон</label>
             </div>
             <div class="form_field registration-form_field">
-              <input type="text">
-              <label for="">E-mail</label>
+              <input type="text" id="user-mail" class="form_field--input">
+              <label for="user-mail" class="form_field--label">E-mail</label>
             </div>
             <button type="button" class="form_btn form_btn--light">Регистрация</button>
           </form>
@@ -426,6 +443,10 @@
 
 
 <!-- scripts -->
+<script src="http://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="http://code.jquery.com/jquery-migrate-3.0.0.min.js" integrity="sha256-JklDYODbg0X+8sPiKkcFURb5z7RvlNMIaE3RA2z97vw=" crossorigin="anonymous"></script>
+<script src="libs/jquery.bxslider/jquery.bxslider.js"></script>
+<script src="js/common.js"></script>
 
 
 
