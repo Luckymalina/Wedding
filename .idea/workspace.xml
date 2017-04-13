@@ -2,26 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55536dd7-f770-45a1-b4fa-5484c627298b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about-slide-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about-slide-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about-slide-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about-slide-4.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about-slide-5.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/about-slide-6.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-3.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-4.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-5.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-6.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-7.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/features-ico-8.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.bxslider/images/bx_loader.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.bxslider/images/controls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.bxslider/jquery.bxslider.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.bxslider/jquery.bxslider.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.bxslider/vendor/jquery.easing.1.3.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/jquery.bxslider/vendor/jquery.fitvids.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/ico-hearts.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-1b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-2b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-3b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-4b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-5b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-6b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-7b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/place-gallery-8b.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/dist/jquery.fancybox.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/dist/jquery.fancybox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/gulpfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/css/core.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/css/fullscreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/css/slideshow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/css/thumbs.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/js/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/js/fullscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/js/guestures.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/js/hash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/js/media.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/js/slideshow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/fancybox-3.0/src/js/thumbs.js" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fonts.rar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
@@ -43,8 +57,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="421">
-                  <caret line="236" column="22" lean-forward="true" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="34" />
+                <state relative-caret-position="285">
+                  <caret line="261" column="34" lean-forward="false" selection-start-line="261" selection-start-column="34" selection-end-line="261" selection-end-column="49" />
                   <folding>
                     <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                     <element signature="n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -76,10 +90,10 @@
           <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="553">
-                  <caret line="388" column="0" lean-forward="true" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+                <state relative-caret-position="688">
+                  <caret line="467" column="41" lean-forward="false" selection-start-line="467" selection-start-column="41" selection-end-line="467" selection-end-column="41" />
                   <folding>
-                    <marker date="1492117221972" expanded="true" signature="1011:1463" ph="..." />
+                    <marker date="1492118990954" expanded="true" signature="1011:1463" ph="..." />
                   </folding>
                 </state>
               </provider>
@@ -359,12 +373,12 @@
       <option name="presentableId" value="Default" />
       <updated>1492020767382</updated>
       <workItem from="1492020770269" duration="10069000" />
-      <workItem from="1492075918417" duration="18578000" />
+      <workItem from="1492075918417" duration="20265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28647000" />
+    <option name="totallyTimeSpent" value="30334000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -423,7 +437,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1492117221972" expanded="true" signature="1011:1463" ph="..." />
+            <marker date="1492118990954" expanded="true" signature="1011:1463" ph="..." />
           </folding>
         </state>
       </provider>
@@ -489,8 +503,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="236" column="22" lean-forward="true" selection-start-line="236" selection-start-column="22" selection-end-line="236" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="261" column="34" lean-forward="false" selection-start-line="261" selection-start-column="34" selection-end-line="261" selection-end-column="49" />
           <folding>
             <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#0;n#div#0;n#div#1;n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -506,10 +520,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="388" column="0" lean-forward="true" selection-start-line="388" selection-start-column="0" selection-end-line="388" selection-end-column="0" />
+        <state relative-caret-position="688">
+          <caret line="467" column="41" lean-forward="false" selection-start-line="467" selection-start-column="41" selection-end-line="467" selection-end-column="41" />
           <folding>
-            <marker date="1492117221972" expanded="true" signature="1011:1463" ph="..." />
+            <marker date="1492118990954" expanded="true" signature="1011:1463" ph="..." />
           </folding>
         </state>
       </provider>
