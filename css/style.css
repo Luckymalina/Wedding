@@ -38,7 +38,6 @@ a:hover {
 /* header */
 .header {
     background: url("../images/bg.jpg") no-repeat;
-    -webkit-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
     height: 95vh;
@@ -92,9 +91,8 @@ a:hover {
     vertical-align: top;
     width: 36px;
     height: 36px;
+    -webkit-transition: all linear 0.2s;
     transition: all linear 0.2s;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     font-size: 0;
     margin: 0 16px 0 0;
@@ -104,7 +102,6 @@ a:hover {
 }
 .social-widget_link--instagramm {
     background: url("../images/ico-inst.png") no-repeat;
-    -webkit-background-size: contain;
     background-size: contain;
 }
 .social-widget_link--instagramm:hover {
@@ -112,7 +109,6 @@ a:hover {
 }
 .social-widget_link--vkontakte {
     background: url("../images/ico-vk.png") no-repeat;
-    -webkit-background-size: contain;
     background-size: contain;
 }
 .social-widget_link--vkontakte:hover {
@@ -120,16 +116,24 @@ a:hover {
 }
 .social-widget_link--facebook {
     background: url("../images/ico-fb.png") no-repeat;
-    -webkit-background-size: contain;
     background-size: contain;
 }
 .social-widget_link--facebook:hover {
     background: url("../images/ico-fb-hover.png") no-repeat;
 }
 .header-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
     height: 95vh;
 }
@@ -152,6 +156,7 @@ a:hover {
 /* registration */
 .registration {
     padding: 35px 0;
+    background: -webkit-linear-gradient(left, #61698e, #c177aa);
     background: linear-gradient(to right, #61698e, #c177aa);
 }
 .registration_title {
@@ -173,9 +178,17 @@ a:hover {
     padding: 0;
 }
 .registration-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 .form_field {
@@ -205,6 +218,7 @@ a:hover {
     top: 14px;
     left: 10px;
     letter-spacing: 1.2px;
+    -webkit-transition: all linear 0.2s;
     transition: all linear 0.2s;
 }
 .form_field--input:focus + .form_field--label {
@@ -227,9 +241,11 @@ a:hover {
     border: 1px solid #efe8ff;
     background: #efe8ff;
     color: #4b1f66;
+    -webkit-transition: all linear 0.4s;
     transition: all linear 0.4s;
 }
 .form_btn--light:hover {
+    background: -webkit-linear-gradient(top, #6f6b92, #9378a0);
     background: linear-gradient(to bottom, #6f6b92, #9378a0);
     color: #ffffff;
 }
@@ -240,9 +256,18 @@ a:hover {
     padding: 75px 0;
 }
 .about_wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 .col-left {
@@ -294,16 +319,27 @@ a:hover {
 /* goals */
 .goals {
     padding: 35px 0 10px 0;
+    background: -webkit-linear-gradient(left, #61698e, #c177aa);
     background: linear-gradient(to right, #61698e, #c177aa);
 }
 .goals_list  {
     list-style: none;
     padding: 0;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .goals_item {
@@ -407,10 +443,19 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .experts_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 .experts_item {
@@ -454,6 +499,7 @@ a:hover {
     line-height: 1em;
     display: inline-block;
     text-align: center;
+    -webkit-transition: all linear 0.2s;
     transition: all linear 0.2s;
 }
 .experts-contact:hover {
@@ -467,9 +513,17 @@ a:hover {
     padding: 100px 0;
 }
 .price-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
     flex-direction: row;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
     align-items: flex-start;
 }
 .price-item {
@@ -499,7 +553,7 @@ a:hover {
 
 /* shedule */
 .shedule {
-
+    padding: 0 0 50px 0;
 }
 .shedule_wrap {
     position: relative;
@@ -527,7 +581,7 @@ a:hover {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 .shedule-day {
-    margin: 55px 0;
+    margin: 0 0 55px 0;
 }
 .shedule_date {
     border-right: 13px solid  #8b619f;
@@ -583,11 +637,9 @@ a:hover {
 
 /* footer */
 .footer {
-    /*padding: 35px 0 10px 0;*/
+    padding: 35px 0 10px 0;
+    background: -webkit-linear-gradient(left, #61698e, #c177aa);
     background: linear-gradient(to right, #61698e, #c177aa);
-}
-.registration-footer {
-
 }
 .registration-footer_title {
     font-family: 'Magnolia Script',serif;
@@ -595,18 +647,52 @@ a:hover {
     font-weight: 300;
     line-height: 60px;
     color: #efe8ff;
+    max-width: 745px;
+    margin: 0 auto;
+    text-align: center;
 }
 .registration-footer_subtitle {
     font-size: 30px;
     line-height: 48px;
     letter-spacing: 0.5px;
+    max-width: 863px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.footer-bottom {
+    margin: 30px 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.footer-bottom .social-widget {
+    margin-left: auto;
+}
+.footer-contacts_link {
+    color: #fcefef;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.8px;
+    margin: 0 0 0 40px;
+    -webkit-transition: all linear 0.2s;
+    transition: all linear 0.2s;
+}
+.footer-contacts_link:hover {
+    color: #d6c0e6;
+    border-bottom: 1px solid #d6c0e6;
 }
 
-
-
-
 /* /footer */
-
 
 
 
