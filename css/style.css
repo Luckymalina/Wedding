@@ -2,7 +2,7 @@
 @font-face {
     font-family: 'Magnolia Script';
     src: local('Magnolia Script'),
-         local('Magnolia-Script'),
+    local('Magnolia-Script'),
     url('../fonts/magnoliascript/Magnoliascript.woff2') format('woff2'),
     url('../fonts/magnoliascript/Magnoliascript.woff') format('woff'),
     url('../fonts/magnoliascript/Magnoliascript.ttf') format('truetype');
@@ -45,8 +45,6 @@ a:hover {
     width: 100%;
     position: relative;
 }
-
-
 .header_wrap {
     background: transparent;
     z-index: 99;
@@ -149,6 +147,7 @@ a:hover {
     margin: 0;
     padding: 0;
 }
+/* /header */
 
 /* registration */
 .registration {
@@ -170,7 +169,7 @@ a:hover {
     font-size: 24px;
     line-height: 30px;
     text-align: center;
-    margin: 0px 0 23px 0;
+    margin: 0 0 23px 0;
     padding: 0;
 }
 .registration-form {
@@ -194,7 +193,7 @@ a:hover {
     font-style: italic;
     font-weight: 200;
     color: #efe8ff;
-    box-shadow: inset 0 0 0px 1px #737373;
+    box-shadow: inset 0 0 0 1px #737373;
 }
 .form_field--label {
     color: #efe8ff;
@@ -210,6 +209,8 @@ a:hover {
 }
 .form_field--input:focus + .form_field--label {
     top: -25px;
+    left: 0;
+    font-size: 14px;
 }
 .form_btn {
     font-family: 'Fira Sans Condensed', sans-serif;
@@ -232,7 +233,6 @@ a:hover {
     background: linear-gradient(to bottom, #6f6b92, #9378a0);
     color: #ffffff;
 }
-
 /* /registration */
 
 /* about */
@@ -289,8 +289,6 @@ a:hover {
     line-height: 30px;
     letter-spacing: 1.4px;
 }
-
-
 /* /about */
 
 /* goals */
@@ -380,15 +378,9 @@ a:hover {
 /* /place */
 
 /* experts */
-
-
-
-
-/* /experts */
 .experts {
     padding: 30px 0;
 }
-
 .experts_wrap {
     position: relative;
 }
@@ -401,6 +393,7 @@ a:hover {
     line-height: 116px;
     display: inline-block;
     padding: 0 55px;
+    margin: 0;
     color: #605b5b;
     background: #d6c0e6;
     text-transform: uppercase;
@@ -467,12 +460,152 @@ a:hover {
     color: #6a6b91;
     border-bottom: 1px solid transparent;
 }
+/* /experts */
+
+/* price */
+.price {
+    padding: 100px 0;
+}
+.price-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.price-item {
+    width: 35%;
+    text-align: center;
+}
+.price-item_cost {
+    display: inline-block;
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    letter-spacing: 1px;
+    color: #5f3878;
+    margin: 0 0 15px 0;
+}
+.rouble {
+    font-size: 30px;
+}
+.price-item_desc {
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+/* /price */
+
+/* shedule */
+.shedule {
+
+}
+.shedule_wrap {
+    position: relative;
+}
+.shedule_title {
+    box-sizing: border-box;
+    position: absolute;
+    top: 277px;
+    left: -400px;
+    height: 116px;
+    line-height: 116px;
+    display: inline-block;
+    padding: 0 55px;
+    margin: 0;
+    color: #605b5b;
+    background: #d6c0e6;
+    text-transform: uppercase;
+    font-size: 35px;
+    letter-spacing: 7px;
+    font-weight: 400;
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+.shedule-day {
+    margin: 55px 0;
+}
+.shedule_date {
+    border-right: 13px solid  #8b619f;
+    font-family: 'Prata', serif;
+    font-size: 60px;
+    line-height: 90px;
+    color: #8b619f;
+    letter-spacing: 5px;
+    width: 190px;
+    text-align: center;
+    padding: 40px 0;
+}
+.shedule_date-month {
+    position: relative;
+}
+.shedule_date-month::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    width: 100%;
+    margin: 0 0 0 -50%;
+    height: 5px;
+    background: #d5cee9;
+}
+.shedule-day .odd {
+    background: #d6c0e6;
+}
+.shedule-event {
+    padding: 10px 5px 10px 60px;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 1px;
+}
+.shedule-event_time {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #8b619f;
+}
+.shedule-mark {
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+.mark {
+    color: #8b619f;
+    font-size: 30px;
+}
+
+/* /shedule */
+
+
+/* footer */
+.footer {
+    /*padding: 35px 0 10px 0;*/
+    background: linear-gradient(to right, #61698e, #c177aa);
+}
+.registration-footer {
+
+}
+.registration-footer_title {
+    font-family: 'Magnolia Script',serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 60px;
+    color: #efe8ff;
+}
+.registration-footer_subtitle {
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+}
 
 
 
 
-
-
+/* /footer */
 
 
 
