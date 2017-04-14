@@ -37,7 +37,7 @@ a:hover {
 
 /* header */
 .header {
-    background: url("../images/bg.jpg") no-repeat;
+    background: url("../images/bg2.jpg") no-repeat;
     background-size: cover;
     background-attachment: fixed;
     height: 95vh;
@@ -686,6 +686,28 @@ a:hover {
     margin: 0 0 0 40px;
     -webkit-transition: all linear 0.2s;
     transition: all linear 0.2s;
+}
+.footer-bottom .social-widget_link--instagramm {
+    background: url("../images/ico-inst-white.png") no-repeat;
+    background-size: contain;
+    transition: all linear 0.2s;
+}
+.footer-bottom .social-widget_link--vkontakte {
+    background: url("../images/ico-vk-white.png") no-repeat;
+    background-size: contain;
+}
+.footer-bottom .social-widget_link--facebook {
+    background: url("../images/ico-fb-white.png") no-repeat;
+    background-size: contain;
+}
+.social-widget_link--instagramm:hover {
+    background: url("../images/ico-inst-hover.png") no-repeat;
+}
+.social-widget_link--vkontakte:hover {
+    background: url("../images/ico-vk-hover.png") no-repeat;
+}
+.social-widget_link--facebook:hover {
+    background: url("../images/ico-fb-hover.png") no-repeat;
 }
 .footer-contacts_link:hover {
     color: #d6c0e6;
