@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="55536dd7-f770-45a1-b4fa-5484c627298b" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fonts.rar" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/bg.jpg" afterPath="$PROJECT_DIR$/images/bg.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -341,12 +339,12 @@
       <updated>1492020767382</updated>
       <workItem from="1492020770269" duration="10069000" />
       <workItem from="1492075918417" duration="21711000" />
-      <workItem from="1492186671754" duration="5708000" />
+      <workItem from="1492186671754" duration="5776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37488000" />
+    <option name="totallyTimeSpent" value="37556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
